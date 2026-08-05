@@ -1,0 +1,15 @@
+{
+  "name": "apitree-lokalni-ai-vol2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md",
+    "export": "slidev export slides.md"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.19.0",
+    "@slidev/theme-default": "^0.25.0",
+    "playwright-chromium": "^1.62.1"
+  }
+}
